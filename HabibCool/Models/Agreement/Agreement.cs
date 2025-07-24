@@ -9,6 +9,7 @@ namespace HabibCool.Models.Agreement
         public string AgreementCode { get; set; }
         public string CarPlateNumber { get; set; }
         public DateTime EnterDate { get; set; }
-        public DateTime ExitDate { get; set; }
+        public DateTime? FinishDate { get; set; }
+        public DateTime? ExitDate { get; set; }
     }
 }
